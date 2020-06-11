@@ -35,12 +35,12 @@ jobs:
    
     - name: install surge
       run: npm install --global surge
-<<<<<<< HEAD
-       - name: GitHub Action for Yarn
-        uses: Borales/actions-yarn@v2.3.0
-        with:
-          # Yarn command
-          cmd: install
+
+    - name: GitHub Action for Yarn
+      uses: Borales/actions-yarn@v2.3.0
+      with:
+        # Yarn command
+        cmd: install
     - name: create build
       run: npm run build
 
