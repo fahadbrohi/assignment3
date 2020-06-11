@@ -38,5 +38,5 @@ jobs:
     - name: creating build
       run: yarn build
     - name: deploy on surge
-      run: surge ./build http://fahadbrohithree.surge.sh/ --token ${{ secrets.SURGE.TOKEN }} 
+      run: surge ./build http://fahadbrohithree.surge.sh/ --token ${{secrets.SURGE.TOKEN}} 
         
