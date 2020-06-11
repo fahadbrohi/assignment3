@@ -45,5 +45,5 @@ jobs:
       run: npm run build
 
     - name: deploy on surge
-      run: surge ./build http://fahadbrohithree.surge.sh/ --token ${{secrets.SURGE.TOKEN}} 
+      run: surge ./build http://light-thread.surge.sh/ --token ${{secrets.NEW_TOKEN}} 
         
