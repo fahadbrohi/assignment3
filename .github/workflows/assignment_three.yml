@@ -30,8 +30,9 @@ jobs:
    
     - name: install surge
       run: npm install --global surge
-    - name: create build
-      run: npm run build
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2
+    
     - name: deploy on surge
       run: surge ./build http://fahadbrohithree.surge.sh/ --token ${{ secrets.SURGE.TOKEN }} 
         
