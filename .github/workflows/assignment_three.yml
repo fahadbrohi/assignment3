@@ -43,10 +43,7 @@ jobs:
           cmd: install
     - name: create build
       run: npm run build
-=======
-    - name: creating build
-      run: yarn build
->>>>>>> 8d6fa485b8c60f827c0c468f35a9de46533f4b16
+
     - name: deploy on surge
       run: surge ./build http://fahadbrohithree.surge.sh/ --token ${{secrets.SURGE.TOKEN}} 
         
