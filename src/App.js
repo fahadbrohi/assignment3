@@ -8,7 +8,7 @@ function App() {
   return(
     <div className="App">
       
-      <Dinner dish="daal chawal" sweet="gajar ka halwa"></Dinner>
+      <Dinner dish="karai" sweet="gajar ka halwa"></Dinner>
 
     </div>
 
